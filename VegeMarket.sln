@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VegeMarketProject", "VegeMarketProject\VegeMarketProject.csproj", "{BF1406F2-2DBF-4ED5-8FD8-B22C01403F2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VegeMarketClient", "VegeMarketClient\VegeMarketClient.csproj", "{EBE6D1AC-6C86-4398-8F84-C1C5440B8519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VegeMarketAPI", "VegeMarketAPI\VegeMarketAPI.csproj", "{2BC35E63-7692-46CC-B6EB-092D02CAF4DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BF1406F2-2DBF-4ED5-8FD8-B22C01403F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF1406F2-2DBF-4ED5-8FD8-B22C01403F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF1406F2-2DBF-4ED5-8FD8-B22C01403F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF1406F2-2DBF-4ED5-8FD8-B22C01403F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE6D1AC-6C86-4398-8F84-C1C5440B8519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE6D1AC-6C86-4398-8F84-C1C5440B8519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE6D1AC-6C86-4398-8F84-C1C5440B8519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE6D1AC-6C86-4398-8F84-C1C5440B8519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC35E63-7692-46CC-B6EB-092D02CAF4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC35E63-7692-46CC-B6EB-092D02CAF4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC35E63-7692-46CC-B6EB-092D02CAF4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC35E63-7692-46CC-B6EB-092D02CAF4DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
