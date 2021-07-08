@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BDAcCAe17IF9PMtOSpmVdDS6YycOGYd0HKeo07YXQ9/H5Ih+qEd77AJvD3mgrnjvExr/LGRu1FVgDT3FhnM0ug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marci\\source\\repos\\VegeMarket\\VegeMarketProject\\VegeMarketProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marci\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

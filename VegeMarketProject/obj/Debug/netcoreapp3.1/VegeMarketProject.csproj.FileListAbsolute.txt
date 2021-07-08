@@ -1,0 +1,9 @@
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\VegeMarketProject.csprojAssemblyReference.cache
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\VegeMarketProject.AssemblyInfoInputs.cache
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\VegeMarketProject.AssemblyInfo.cs
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\VegeMarketProject.RazorTargetAssemblyInfo.cache
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\staticwebassets\VegeMarketProject.StaticWebAssets.Manifest.cache
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\staticwebassets\VegeMarketProject.StaticWebAssets.xml
