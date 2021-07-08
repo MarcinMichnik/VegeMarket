@@ -7,3 +7,14 @@ C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1
 C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\VegeMarketProject.RazorTargetAssemblyInfo.cache
 C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\staticwebassets\VegeMarketProject.StaticWebAssets.Manifest.cache
 C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\staticwebassets\VegeMarketProject.StaticWebAssets.xml
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\bin\Debug\netcoreapp3.1\VegeMarketProject.exe
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\bin\Debug\netcoreapp3.1\VegeMarketProject.deps.json
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\bin\Debug\netcoreapp3.1\VegeMarketProject.runtimeconfig.json
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\bin\Debug\netcoreapp3.1\VegeMarketProject.runtimeconfig.dev.json
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\bin\Debug\netcoreapp3.1\VegeMarketProject.dll
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\bin\Debug\netcoreapp3.1\VegeMarketProject.pdb
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\VegeMarketProject.csproj.CoreCompileInputs.cache
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\VegeMarketProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\VegeMarketProject.dll
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\VegeMarketProject.pdb
+C:\Users\marci\source\repos\VegeMarket\VegeMarketProject\obj\Debug\netcoreapp3.1\VegeMarketProject.genruntimeconfig.cache

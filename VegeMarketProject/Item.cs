@@ -4,7 +4,17 @@ namespace VegeMarketProject
 {
     public abstract class Item
     {
-        protected Item(DateTime expirationDate, float quality, float weight)
+        protected DateTime added;
+        protected DateTime expirationDate;
+        protected Double quality;
+        protected Double weight;
+
+        public DateTime Added { get; set; }
+        public DateTime ExpirationDate { get; set; }
+        public Double Quality { get; set; }
+        public Double Weight { get; set; }
+
+        public Item(DateTime expirationDate, Double quality, Double weight)
         {
             Added = DateTime.Now;
             ExpirationDate = expirationDate;
@@ -12,24 +22,19 @@ namespace VegeMarketProject
             Weight = weight;
         }
 
-        protected static DateTime Added { get; set; }
-        protected static DateTime ExpirationDate { get; set; }
-        protected static float Quality { get; set; }
-        protected static float Weight { get; set; }
-
-        public static float GetValuability() 
+        public Double GetValuability() 
         {
-            float valuability = Quality * Weight;
+            Double valuability = Quality * Weight;
             return valuability;
         }
 
-        public static TimeSpan GetTimeTillExpiration()
+        public TimeSpan GetTimeTillExpiration()
         {
             TimeSpan timeTillExpiration = DateTime.Now - ExpirationDate;
             return timeTillExpiration;
         }
 
-        public static TimeSpan GetLongevity()
+        public TimeSpan GetLongevity()
         {
             TimeSpan longevity = ExpirationDate - Added;
             return longevity;

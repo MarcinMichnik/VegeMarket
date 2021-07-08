@@ -7,7 +7,7 @@ namespace VegeMarketProject
 {
     public class Fruit : Item
     {
-        public Fruit(DateTime expirationDate, float quality, float weight) : base(expirationDate, quality, weight)
+        public Fruit(DateTime expirationDate, Double quality, Double weight) : base(expirationDate, quality, weight)
         {
             Added = DateTime.Now;
             ExpirationDate = expirationDate;
