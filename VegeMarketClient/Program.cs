@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SecureAPIClient;
 
 namespace VegeMarketClient
 {
@@ -15,6 +16,9 @@ namespace VegeMarketClient
     {
         public static void Main(string[] args)
         {
+            AuthConfig config = AuthConfig.ReadFromJsonFile("appsettings.json");
+            Console.WriteLine($"Authority: {config.Authority}");
+
             CreateHostBuilder(args).Build().Run();
         }
 
