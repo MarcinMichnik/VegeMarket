@@ -31,8 +31,8 @@ namespace VegeMarketProject
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(opt =>
                 {
-                    opt.Audience = Configuration["AAD:ResourceId"];
-                    opt.Authority = $"{Configuration["AAD:Instance"]}{Configuration["AAD:TenantId"]}";
+                    opt.Audience = Configuration["AzureAd:ResourceId"];
+                    opt.Authority = $"{Configuration["AzureAd:Instance"]}{Configuration["AzureAd:TenantId"]}";
                 });
             services.AddDbContext<FruitContext>(opt =>
                                                opt.UseInMemoryDatabase("FruitList"));

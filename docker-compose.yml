@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  vegemarketapi:
+    image: ${DOCKER_REGISTRY-}vegemarketapi
+    container_name: vegeapi
+    build:
+      context: .
+      dockerfile: VegeMarketAPI/Dockerfile
+    networks:
+        vegenetwork:
+            aliases:
+                - marketapi
+    ports:
+        - 5001:443
+        - 5001:80
+
+  vegemarketclient:
+    image: ${DOCKER_REGISTRY-}vegemarketclient
+    container_name: vegeclient
+    build:
+      context: .
+      dockerfile: VegeMarketClient/Dockerfile
+    networks:
+        vegenetwork:
+            aliases:
+                - marketclient
+    ports:
+        - 5000:80
+        - 5000:443
+    depends_on:
+        - vegemarketapi
+
+networks:
+   vegenetwork:

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VegeMarketClient", "VegeMarketClient\VegeMarketClient.csproj", "{EBE6D1AC-6C86-4398-8F84-C1C5440B8519}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VegeMarketClient", "VegeMarketClient\VegeMarketClient.csproj", "{EBE6D1AC-6C86-4398-8F84-C1C5440B8519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VegeMarketAPI", "VegeMarketAPI\VegeMarketAPI.csproj", "{2BC35E63-7692-46CC-B6EB-092D02CAF4DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VegeMarketAPI", "VegeMarketAPI\VegeMarketAPI.csproj", "{2BC35E63-7692-46CC-B6EB-092D02CAF4DB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{69642809-3469-425D-9E9B-695F324F5A4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2BC35E63-7692-46CC-B6EB-092D02CAF4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BC35E63-7692-46CC-B6EB-092D02CAF4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BC35E63-7692-46CC-B6EB-092D02CAF4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69642809-3469-425D-9E9B-695F324F5A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69642809-3469-425D-9E9B-695F324F5A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69642809-3469-425D-9E9B-695F324F5A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69642809-3469-425D-9E9B-695F324F5A4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
